@@ -1,2 +1,3 @@
-# magic-card-database
-A database-driven collection organizer and card searcher for the CCG Magic: The Gathering.
+# Magic Card Database
+
+This is database-driven collection organizer and card searcher for the CCG Magic: The Gathering. I used to play pretty avidly, and when I couldn't find any decent free collection organizers, I decided to pick up Python and attempt to create my own. The application makes use of [wxPython](http://www.wxpython.org/) for the GUI, and the sqlite library that comes with every installation of Python. I made searching a strong feature of the code, as I wanted to be able to construct decks from the entire Magic library. To import all of the information for all cards, I wrote a Python script to scrape the WOTC website, which made use of the [BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/) library for parsing the HTML information. This is still a work in progress, so I have yet to release it into the wild.
